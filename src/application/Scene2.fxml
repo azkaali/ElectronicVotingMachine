@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LogIn">
+   <children>
+      <Label fx:id="myLabel" layoutX="221.0" layoutY="48.0" text="Party Selection">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="271.0" layoutY="321.0" mnemonicParsing="false" onAction="#toVoteSuccess" text="Cast">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <RadioButton fx:id="r" layoutX="228.0" layoutY="144.0" mnemonicParsing="false" onAction="#addingVotes" text="JUI-F">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="r1" layoutX="228.0" layoutY="183.0" mnemonicParsing="false" onAction="#addingVotes" text="PPP">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="228.0" layoutY="218.0" mnemonicParsing="false" text="PTI">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+   </children>
+</AnchorPane>
